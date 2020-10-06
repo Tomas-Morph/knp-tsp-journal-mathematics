@@ -1,4 +1,4 @@
-# Comparison between Single and Multi-objectiveEvolutionary Algorithms to solve the Knapsack Problem and the Travelling Salesman Problem
+# Comparison between Single and Multi-objective Evolutionary Algorithms to solve the Knapsack Problem and the Travelling Salesman Problem
 
 ## Work submitted to: [Special Issue 'Evolutionary Computation 2020' - Mathematics](https://www.mdpi.com/si/mathematics/Evolutionary_Computation_2020)
 
