@@ -1,0 +1,14 @@
+0 = Actimel
+1 = Flan
+2 = Leche frita
+3 = Macedonia de frutas
+4 = Mandarina
+5 = Manzana
+6 = Melon
+7 = Pera
+8 = Petit Suisse de fresa
+9 = Platano
+10 = Sandia
+11 = Yogur frutas del bosque
+12 = Yogur liquido de frutas 
+13 = Yogur liquido fresa y platano

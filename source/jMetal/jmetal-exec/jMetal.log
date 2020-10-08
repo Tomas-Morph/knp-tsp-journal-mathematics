@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919274</millis>
+  <sequence>0</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.JMetalLogger</class>
+  <method>configureLoggers</method>
+  <thread>1</thread>
+  <message>Loggers configured with null</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919327</millis>
+  <sequence>1</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ExecuteAlgorithms</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ExecuteAlgorithms: Preparing output directory</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919340</millis>
+  <sequence>2</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/SMSEMOA-p20-e10000000</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919340</millis>
+  <sequence>3</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/NSGAII-p20-e10000000</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919341</millis>
+  <sequence>4</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>SEVERE</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/NSGAII-p20-e10000000 failed</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919341</millis>
+  <sequence>5</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message> Running algorithm: SMSEMOA-p20-e10000000, problem: kroA100kroB100, run: 65, funFile: Experiments/TSP/MultiObjective/clusAB100/data/SMSEMOA-p20-e10000000/FUN65.tsv</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919341</millis>
+  <sequence>6</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>18</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/MOEAD-p20-e10000000</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919342</millis>
+  <sequence>7</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>SEVERE</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/MOEAD-p20-e10000000 failed</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919342</millis>
+  <sequence>12</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>SEVERE</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>19</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/SMSEMOA-p20-e10000000 failed</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919342</millis>
+  <sequence>10</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII-p20-e10000000, problem: kroA100kroB100, run: 31, funFile: Experiments/TSP/MultiObjective/clusAB100/data/NSGAII-p20-e10000000/FUN31.tsv</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919342</millis>
+  <sequence>11</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>SEVERE</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>17</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/SMSEMOA-p20-e10000000 failed</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919342</millis>
+  <sequence>9</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>SEVERE</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>16</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/NSGAII-p20-e10000000 failed</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919342</millis>
+  <sequence>8</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>SEVERE</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message>Creating Experiments/TSP/MultiObjective/clusAB100/data/SMSEMOA-p20-e10000000 failed</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919342</millis>
+  <sequence>13</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>18</thread>
+  <message> Running algorithm: MOEAD-p20-e10000000, problem: kroA100kroB100, run: 35, funFile: Experiments/TSP/MultiObjective/clusAB100/data/MOEAD-p20-e10000000/FUN35.tsv</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919343</millis>
+  <sequence>14</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGAII-p20-e10000000, problem: kroA100kroB100, run: 6, funFile: Experiments/TSP/MultiObjective/clusAB100/data/NSGAII-p20-e10000000/FUN6.tsv</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919344</millis>
+  <sequence>15</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message> Running algorithm: SMSEMOA-p20-e10000000, problem: kroA100kroB100, run: 15, funFile: Experiments/TSP/MultiObjective/clusAB100/data/SMSEMOA-p20-e10000000/FUN15.tsv</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919345</millis>
+  <sequence>16</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>16</thread>
+  <message> Running algorithm: NSGAII-p20-e10000000, problem: kroA100kroB100, run: 28, funFile: Experiments/TSP/MultiObjective/clusAB100/data/NSGAII-p20-e10000000/FUN28.tsv</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919345</millis>
+  <sequence>17</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>17</thread>
+  <message> Running algorithm: SMSEMOA-p20-e10000000, problem: kroA100kroB100, run: 40, funFile: Experiments/TSP/MultiObjective/clusAB100/data/SMSEMOA-p20-e10000000/FUN40.tsv</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919346</millis>
+  <sequence>18</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>19</thread>
+  <message> Running algorithm: SMSEMOA-p20-e10000000, problem: kroA100kroB100, run: 90, funFile: Experiments/TSP/MultiObjective/clusAB100/data/SMSEMOA-p20-e10000000/FUN90.tsv</message>
+</record>
+<record>
+  <date>2020-10-08T03:41:59</date>
+  <millis>1602124919347</millis>
+  <sequence>19</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: MOEAD-p20-e10000000, problem: kroA100kroB100, run: 43, funFile: Experiments/TSP/MultiObjective/clusAB100/data/MOEAD-p20-e10000000/FUN43.tsv</message>
+</record>
+</log>
