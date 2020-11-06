@@ -1,4 +1,4 @@
-postscript("boxplot-Uncorrelated-F5050W01-Objective2.eps", horizontal=FALSE, height=8, width=16, pointsize=12)
+postscript("boxplot-Uncorrelated-F5050W01-Objective2.eps", horizontal=FALSE, pointsize=16)
 data1<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/SingleObjective/eES/Uncorrelated/F5050W01/objective2.csv")
 data2<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/SingleObjective/gGA/Uncorrelated/F5050W01/objective2.csv")
 data3<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/MOEAD/Uncorrelated/F5050W01/objective2.csv")
@@ -6,5 +6,5 @@ data4<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/NSGAII/Unc
 data5<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/SMSEMOA/Uncorrelated/F5050W01/objective2.csv")
 dataM<-matrix(c(data1,data2,data3,data4,data5), 100)
 library("Rlab")
-bplot(dataM, space = 0.6, labels = c("eES", "gGA", "MOEAD", "NSGAII", "SMSEMOA"), ylab = "Objective value", main = "KP - Uncorrelated-F5050W01 - Objective 2 - 100 rep.")
+bplot(dataM, space = 0.6, labels = c("eES", "gGA", "MOEAD", "NSGAII", "SMSEMOA"), ylab = "Objective value", main = "KNP - Uncorrelated-F5050W01 - Objective 2 - 100 rep.")
 dev.off()

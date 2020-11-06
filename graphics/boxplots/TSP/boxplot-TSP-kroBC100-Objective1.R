@@ -1,4 +1,4 @@
-postscript("boxplot-kroBC100-Objective1.eps", horizontal=FALSE, height=8, width=16, pointsize=12)
+postscript("boxplot-kroBC100-Objective1.eps", horizontal=FALSE, pointsize=16)
 data1<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/TSP/SingleObjective/eES/kroBC100/objective1.csv")
 data2<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/TSP/SingleObjective/gGA/kroBC100/objective1.csv")
 data3<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/TSP/MultiObjective/MOEAD/kroBC100/objective1.csv")

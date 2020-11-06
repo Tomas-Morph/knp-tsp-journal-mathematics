@@ -1,4 +1,4 @@
-postscript("boxplot-1B-2KP500-1C-Objective1.eps", horizontal=FALSE, height=8, width=16, pointsize=12)
+postscript("boxplot-1B-2KP500-1C-Objective1.eps", horizontal=FALSE, pointsize=16)
 data1<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/SingleObjective/eES/1B/2KP500-1C/objective1.csv")
 data2<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/SingleObjective/gGA/1B/2KP500-1C/objective1.csv")
 data3<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/MOEAD/1B/2KP500-1C/objective1.csv")
@@ -6,5 +6,5 @@ data4<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/NSGAII/1B/
 data5<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/SMSEMOA/1B/2KP500-1C/objective1.csv")
 dataM<-matrix(c(data1,data2,data3,data4,data5), 100)
 library("Rlab")
-bplot(dataM, space = 0.6, labels = c("eES", "gGA", "MOEAD", "NSGAII", "SMSEMOA"), ylab = "Objective value", main = "KP - 1B-2KP500-1C - Objective 1 - 100 rep.")
+bplot(dataM, space = 0.6, labels = c("eES", "gGA", "MOEAD", "NSGAII", "SMSEMOA"), ylab = "Objective value", main = "KNP - 1B-2KP500-1C - Objective 1 - 100 rep.")
 dev.off()

@@ -8,7 +8,7 @@ for my $instance (@instances) {
   my $shortInstance = $instance;
   $shortInstance=~ s/\//\-/;
   for my $objective (1..2) {
-    my $script = qq{postscript("boxplot-${shortInstance}-Objective${objective}.eps", horizontal=FALSE, height=8, width=16, pointsize=12)
+    my $script = qq{postscript("boxplot-${shortInstance}-Objective${objective}.eps", horizontal=FALSE, pointsize=16)
 data1<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/SingleObjective/eES/${instance}/objective${objective}.csv")
 data2<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/SingleObjective/gGA/${instance}/objective${objective}.csv")
 data3<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/MOEAD/${instance}/objective${objective}.csv")
@@ -16,7 +16,7 @@ data4<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/NSGAII/${i
 data5<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/KP/MultiObjective/SMSEMOA/${instance}/objective${objective}.csv")
 dataM<-matrix(c(data1,data2,data3,data4,data5), 100)
 library("Rlab")
-bplot(dataM, space = 0.6, labels = c("eES", "gGA", "MOEAD", "NSGAII", "SMSEMOA"), ylab = "Objective value", main = "KP - ${shortInstance} - Objective ${objective} - 100 rep.")
+bplot(dataM, space = 0.6, labels = c("eES", "gGA", "MOEAD", "NSGAII", "SMSEMOA"), ylab = "Objective value", main = "KNP - ${shortInstance} - Objective ${objective} - 100 rep.")
 dev.off()};
 
     open FILE, "> boxplot-KP-${shortInstance}-Objective${objective}.R";

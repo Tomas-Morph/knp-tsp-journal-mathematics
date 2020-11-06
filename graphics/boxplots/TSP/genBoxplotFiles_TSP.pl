@@ -6,7 +6,7 @@ my @instances = qw {clusAB100 clusAB500 euclAB300 kroAB100 kroAB150 kroAB300 kro
 
 for my $instance (@instances) {
   for my $objective (1..2) {
-    my $script = qq{postscript("boxplot-${instance}-Objective${objective}.eps", horizontal=FALSE, height=8, width=16, pointsize=12)
+    my $script = qq{postscript("boxplot-${instance}-Objective${objective}.eps", horizontal=FALSE, pointsize=16)
 data1<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/TSP/SingleObjective/eES/${instance}/objective${objective}.csv")
 data2<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/TSP/SingleObjective/gGA/${instance}/objective${objective}.csv")
 data3<-scan("/home/edusegre/Descargas/SOvsMO/RESULT/TSP/MultiObjective/MOEAD/${instance}/objective${objective}.csv")
